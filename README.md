@@ -93,3 +93,47 @@ int main()
   printf("%d to %d", var1,var2);
   return 0;
 }
+# return to initial val
+#include<stdio.h>
+int main()
+{
+  unsigned int var=234;
+  printf("%u", var);
+  return 0;
+}
+//if the value is increased based on previous value the output will become 0
+#include<stdio.h>
+int main()
+{
+  unsigned int var=237;
+  printf("%u", var);
+  return 0;
+}
+
+# datattype-character
+//character is represented as a 8bits of information
+// character datatype is stored one character at a time
+#include<stdio.h>
+int main()
+{
+  char var='A';
+  printf("%u", var);
+  return 0;
+}     //o/p= 65
+or 
+#include<stdio.h>
+int main()
+{
+  unsigned int var=65;
+  printf("%c", var);
+  return 0;
+}    //op=A
+# range of character
+// unsigned=0 to 266 and signed=-128 to 127
+#include<stdio.h>
+int main()
+{
+  char var=234;
+  printf("%c", var);
+  return 0;
+}
